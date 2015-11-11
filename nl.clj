@@ -1,7 +1,31 @@
 (ns official.nl
   (:use [expectations]
+        [clinglua.Common]
         [clinglua.Gram]
         [helper]))
+
+;(expect-not-include :nl "de moe man" "(NOUN (THE tired husband ))")
+;(expect-not-include :nl "welk vliegtuig stijgt erop" "(INTR (WHICH plane ) (take_off PRES))")
+;(expect-not-include :nl "ze hebbenrst niet" "((INTR NEG) 7 (be_thirsty PRES))")
+;(expect-not-include :nl "ze hebben ergens behoord toe" "(TRANS 7 (belong_to PERF) STH)")
+;(expect-not-include :nl "ergens wachten op" "(TRANS () (wait_for INF) STH)")
+;(expect-not-include :nl "wie spot het lid met" "((TRANS IROG) (THE member) (mock PRES) WHO)")
+;(expect-not-include :nl "wie trouwt niemand met" "((TRANS IROG) NBY (marry PRES) WHO)")
+;(expect-not-include :nl "wie besteedde het er" "((TRANS IROG) WHO (spend_time PRET) 13)")
+;(expect-not-include :nl "welke winters bleven er even schandalig als jouw krachten" "((NOM IROG) (WHICH winter PL) (rester PRET) (EQL scandalous (P1 kracht PL)))")
+;(expect-not-include :nl "ik ben basis" "(NOM 0 (ser PRES) (basic))")
+;(expect-not-include :nl "u heeft zich ergens ontdaan van" "(TRANS 2 (get_rid_of PERF) STH)")
+;(expect-not-include :nl "alle water" "(NOUN (ALL water))")
+;(expect-not-include :nl "al de melk" "(NOUN (ALL water))")
+;(expect-not-include :nl "we mogen komen in opstand" "(INTR 4 (rebel may_v PRES))")
+;(expect-not-include :nl "ze moeten er boeten voor" "(TRANS 7 (atone must PRES) 13)")
+;(expect-not-include :nl "jij scheert jou" "(INTR 1 (shave PRES))")
+;(expect-not-include :nl "deze diefet kwaad aan u" "(TRANS (THIS thief_masc) (harm PRES) 2)")
+;(expect-not-include :nl "u wilt aan mij een standje geven" "(TRANS 2 (scold want PRES) 0)")
+;(expect-not-include :nl "ik ben even strak als je" "(NOM 0 (ser PRES) (EQL tight 1))")
+;(expect-not-include :nl "ik geef de fiets aan het" "(DAT 0 (give PRES) (THE bicycle) 13)")
+;(expect-not-include :nl "ik vertrouw op het" "(TRANS 0 (rely_on PRES) 13)")
+;(expect-not-include :nl "de naar tevredenheide successen eisen" "(INTR (THE satisfactory success PL) (demand PRES))")
 
 (expect-inglua :nl ((TRANS) 4 (see PLUPERF) (THE whole wine )) "wij hadden de hele wijn gezien")
 
