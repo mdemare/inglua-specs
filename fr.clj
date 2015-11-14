@@ -52,8 +52,8 @@
 (expect-inglua :fr (NOUN (THE track)) "la voie ferrée")
 (expect-inglua :fr (NOUN (THE track PL)) "les voies ferrées")
 (expect-inglua :fr (NOUN (THE policeman PL)) "les agents de police")
-(expect-inglua :fr ((TRANS) (THE spider) (prevent PRES) 13) "l'araignée le prévient")
-(expect-inglua :fr ((TRANS) (THE spider) (prevent PRES) 13) "l'araignée prévient cela")
+(expect-inglua :fr (TRANS (THE spider) (prevent PRES) 13) "l'araignée le prévient")
+(expect-inglua :fr (TRANS (THE spider) (prevent PRES) 13) "l'araignée prévient cela")
 (expect-inglua :fr ((INTR IROG HOW) 1 (hurry PRES)) "comment est-ce que tu te dépêches")
 (expect-inglua :fr ((TRANS IROG WHY) 13 (surround PRET) 0) "pourquoi est-ce que cela m'entourait")
 (expect-inglua :fr ((INTR IROG) 0 (be_mistaken pouvoir PRES)) "je peux me tromper")
@@ -69,7 +69,7 @@
 (expect-inglua :fr (INTR (THE necessary fear) (kneel PRES)) "la peur nécessaire s'agenouille")
 (expect-inglua :fr (TRANS (THE deep accident) (need PRES) (THE king PL)) "l'accident profond a besoin des rois")
 (expect-inglua :fr (NOM 12 (ser PRES) (shallow)) "elle est peu profonde")
-
+(expect-inglua :fr (TRANS 0 (see PRES) (NO spider PL)) "je ne vois aucunes araignées")
 ;; les chats y appartiennent
 (expect-inglua :fr (TRANS (THE cat PL) (belong_to PRES) 13) "les chats y appartiennent")
 (expect-inglua :fr (TRANS (THE cat PL) (think_about PRES) 13) "les chats y pensent")
