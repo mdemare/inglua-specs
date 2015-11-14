@@ -44,6 +44,7 @@
 (expect-inglua :fr (TRANS NBY (see PRES) 0) "personne ne me voit")
 (expect-inglua :fr ((NOM IROG WHY) (THE sky) (ser PRES) (blue)) "pourquoi est-ce que le ciel est bleu")
 (expect-inglua :fr ((NOM IROG WHY) (THE sky) (ser PRES) (blue)) "pourquoi le ciel est-il bleu")
+(expect-inglua :fr ((NOM IROG WHY) (THE girl PL) (ser PRES) (blue)) "pourquoi les filles sont-elles bleues")
 (expect-inglua :fr (DAT 4 (send PERF) (THE fork PL) 2) "nous vous avons envoyé les fourchettes")
 (expect-inglua :fr (NOUN (THE gas_station)) "la station-service")
 (expect-inglua :fr (NOUN (N2 match PL)) "deux matches")
@@ -83,6 +84,7 @@
 
 ;; ils se sont rappelés
 (expect-inglua :fr (INTR 7 (recollect PERF)) "ils se sont rappelés")
+(expect-inglua :fr (INTR 11 (recollect PERF)) "elles se sont rappelées")
 (expect-inglua :fr (INTR 12 (recollect PERF)) "elle s'est rappelée")
 
 ;; les mêmes jours
