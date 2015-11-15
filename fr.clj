@@ -92,6 +92,7 @@
 
 ;; be_painful
 (expect-inglua :fr (TRANS () (be_painful INF) STH) "avoir mal à")
+(expect-inglua :fr (TRANS (THE knee) (be_painful PRES) 0) "j'ai mal au genou")
 
 ;; quatre-vingt voitures
 (expect-inglua :fr (NOUN (N80 car PL)) "quatre-vingt voitures")
