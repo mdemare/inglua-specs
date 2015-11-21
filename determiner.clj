@@ -20,7 +20,6 @@
 (expect-inglua :fr (NOUN (THAT fence)) "cette clôture-là")
 (expect-inglua :it (NOUN (THAT fence)) "quello recinto")
 
-;; THAT
 (expect-inglua :en (NOUN (THAT fence)) "that fence")
 (expect-inglua :es (NOUN (THAT fence)) "aquella valla")
 (expect-inglua :nl (NOUN (THAT fence)) "dat hek")
@@ -105,7 +104,6 @@
 (expect-inglua :fr (NOUN (THAT fence PL)) "cettes clôtures-là")
 (expect-inglua :it (NOUN (THAT fence PL)) "quei recinti")
 
-;; THAT
 (expect-inglua :en (NOUN (THAT fence PL)) "those fences")
 (expect-inglua :es (NOUN (THAT fence PL)) "aquellas vallas")
 (expect-inglua :nl (NOUN (THAT fence PL)) "die hekken")
