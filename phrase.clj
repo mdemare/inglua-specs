@@ -13,7 +13,6 @@
 (expect-inglua :it (INTR 0 (walk PRES)) "cammino")
 
 ;; reflexive
-;; correct
 (expect-inglua :en (INTR 0 (behave PRES)) "I behave myself")
 (expect-inglua :es (INTR 0 (behave PRES)) "yo me comporto")
 (expect-inglua :nl (INTR 0 (behave PRES)) "ik gedraag me")
@@ -22,7 +21,6 @@
 (expect-inglua :it (INTR 0 (behave PRES)) "mi comporto")
 
 ;; reflexive
-;; correct
 (expect-inglua :en (INTR 1 (behave PRES)) "you behave yourself")
 (expect-inglua :es (INTR 1 (behave PRES)) "tú te comportas")
 (expect-inglua :nl (INTR 1 (behave PRES)) "jij gedraagt je")
@@ -31,7 +29,6 @@
 (expect-inglua :it (INTR 1 (behave PRES)) "ti comporti")
 
 ;; reflexive
-;; correct
 (expect-inglua :en (INTR 2 (behave PRES)) "you behave yourself")
 (expect-inglua :es (INTR 2 (behave PRES)) "usted se comporta")
 (expect-inglua :nl (INTR 2 (behave PRES)) "u gedraagt zich")
@@ -40,7 +37,6 @@
 (expect-inglua :it (INTR 2 (behave PRES)) "si comporta")
 
 ;; reflexive
-;; correct
 (expect-inglua :en (INTR 12 (behave PRES)) "she behaves herself")
 (expect-inglua :es (INTR 12 (behave PRES)) "ella se comporta")
 (expect-inglua :nl (INTR 12 (behave PRES)) "ze gedraagt zich")
@@ -49,7 +45,6 @@
 (expect-inglua :it (INTR 12 (behave PRES)) "si comporta")
 
 ;; reflexive
-;; correct
 (expect-inglua :en (INTR 8 (behave PRES)) "we behave ourselves")
 (expect-inglua :es (INTR 8 (behave PRES)) "nosotras nos comportamos")
 (expect-inglua :nl (INTR 8 (behave PRES)) "we gedragen ons")
@@ -58,7 +53,6 @@
 (expect-inglua :it (INTR 8 (behave PRES)) "ci comportiamo")
 
 ;; reflexive
-;; correct
 (expect-inglua :en (INTR 5 (behave PRES)) "you behave yourselves")
 (expect-inglua :es (INTR 5 (behave PRES)) "vosotros os comportáis")
 (expect-inglua :nl (INTR 5 (behave PRES)) "jullie gedragen je")
@@ -67,7 +61,6 @@
 (expect-inglua :it (INTR 5 (behave PRES)) "vi comportate")
 
 ;; reflexive
-;; correct
 (expect-inglua :en (INTR 7 (behave PRES)) "they behave themselves")
 (expect-inglua :es (INTR 7 (behave PRES)) "ellos se comportan")
 (expect-inglua :nl (INTR 7 (behave PRES)) "zij gedragen zich")
@@ -76,7 +69,6 @@
 (expect-inglua :it (INTR 7 (behave PRES)) "si comportano")
 
 ;; noun phrase
-;; correct
 (expect-inglua :en (INTR (THE girl) (behave PRES)) "the girl behaves herself")
 (expect-inglua :es (INTR (THE girl) (behave PRES)) "la chica se comporta")
 (expect-inglua :nl (INTR (THE girl) (behave PRES)) "het meisje gedraagt zich")
@@ -85,7 +77,6 @@
 (expect-inglua :it (INTR (THE girl) (behave PRES)) "la ragazza si comporta")
 
 ;; reflexive
-;; correct
 (expect-inglua :en (INTR () (behave INF)) "to behave oneself")
 (expect-inglua :es (INTR () (behave INF)) "comportarse")
 (expect-inglua :nl (INTR () (behave INF)) "zich gedragen")
@@ -94,7 +85,6 @@
 (expect-inglua :it (INTR () (behave INF)) "comportarsi")
 
 ;; noun phrase object
-;; correct
 (expect-inglua :en (TRANS (THE snake) (bite PRES) (THE dog)) "the snake bites the dog")
 (expect-inglua :es (TRANS (THE snake) (bite PRES) (THE dog)) "la serpiente muerde el perro")
 (expect-inglua :nl (TRANS (THE snake) (bite PRES) (THE dog)) "de slang bijt de hond")
@@ -103,7 +93,6 @@
 (expect-inglua :it (TRANS (THE snake) (bite PRES) (THE dog)) "il serpente morde il cane")
 
 ;; noun phrase object adj
-;; correct
 (expect-inglua :en (TRANS (THE brown snake) (bite PRES) (THE beautiful dog)) "the brown snake bites the beautiful dog")
 (expect-inglua :es (TRANS (THE brown snake) (bite PRES) (THE beautiful dog)) "la serpiente marrona muerde el perro hermoso")
 (expect-inglua :nl (TRANS (THE brown snake) (bite PRES) (THE beautiful dog)) "de bruine slang bijt de mooie hond")
@@ -112,7 +101,6 @@
 (expect-inglua :it (TRANS (THE brown snake) (bite PRES) (THE beautiful dog)) "il serpente marrone morde il bel cane")
 
 ;; dative with nps
-;; correct
 (expect-inglua :en (DAT 1 (give PRES) (THE fish) (THE man)) "you give the fish to the man")
 (expect-inglua :es (DAT 1 (give PRES) (THE fish) (THE man)) "tú das el pez al hombre")
 (expect-inglua :nl (DAT 1 (give PRES) (THE fish) (THE man)) "je geeft de vis aan de man")
@@ -121,7 +109,6 @@
 (expect-inglua :it (DAT 1 (give PRES) (THE fish) (THE man)) "dai il pesce all'uomo")
 
 ;; dative with nps
-;; correct
 (expect-inglua :en (DAT 1 (give PRES) (THE fish) (THE man)) "you give the man the fish")
 (expect-inglua :nl (DAT 1 (give PRES) (THE fish) (THE man)) "je geeft de man de vis")
 
@@ -159,7 +146,6 @@
 (expect-inglua :it (NOM 11 (ser PRES) (fast)) "sono rapide")
 
 ;; nominal phrase
-;; correct
 (expect-inglua :en (NOM 1 (ser PRES) (THE enemy)) "you are the enemy")
 (expect-inglua :es (NOM 1 (ser PRES) (THE enemy)) "tú eres el enemigo")
 (expect-inglua :nl (NOM 1 (ser PRES) (THE enemy)) "jij bent de vijand")
@@ -168,7 +154,6 @@
 (expect-inglua :it (NOM 1 (ser PRES) (THE enemy)) "sei il nemico")
 
 ;; negation intransitive pronoun
-;; correct
 (expect-inglua :en ((INTR NEG) 0 (sleep PRES)) "I do not sleep")
 (expect-inglua :es ((INTR NEG) 0 (sleep PRES)) "no duermo")
 (expect-inglua :nl ((INTR NEG) 0 (sleep PRES)) "ik slaap niet")
