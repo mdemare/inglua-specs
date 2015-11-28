@@ -101,8 +101,6 @@
 
 ;; depend on somebody
 (expect-inglua :en (TRANS () (depend_on INF) SBY) "to depend on somebody")
-
-;; depend on somebody
 (expect-inglua :en (TRANS 0 (depend_on PRES) 2) "I depend on you")
 
 ;; to cut off somebody
